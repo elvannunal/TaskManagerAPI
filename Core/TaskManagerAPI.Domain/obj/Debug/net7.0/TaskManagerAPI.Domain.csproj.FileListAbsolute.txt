@@ -1,0 +1,12 @@
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/bin/Debug/net7.0/TaskManagerAPI.Domain.deps.json
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/bin/Debug/net7.0/TaskManagerAPI.Domain.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/bin/Debug/net7.0/TaskManagerAPI.Domain.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/TaskManagerAPI.Domain.csproj.AssemblyReference.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/TaskManagerAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/TaskManagerAPI.Domain.AssemblyInfoInputs.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/TaskManagerAPI.Domain.AssemblyInfo.cs
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/TaskManagerAPI.Domain.csproj.CoreCompileInputs.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/TaskManagerAPI.Domain.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/refint/TaskManagerAPI.Domain.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/TaskManagerAPI.Domain.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Domain/obj/Debug/net7.0/ref/TaskManagerAPI.Domain.dll

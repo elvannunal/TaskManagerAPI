@@ -1,0 +1,15 @@
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/bin/Debug/net7.0/TaskManagerAPI.Application.deps.json
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/bin/Debug/net7.0/TaskManagerAPI.Application.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/bin/Debug/net7.0/TaskManagerAPI.Application.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/bin/Debug/net7.0/TaskManagerAPI.Domain.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/bin/Debug/net7.0/TaskManagerAPI.Domain.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.csproj.AssemblyReference.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.AssemblyInfoInputs.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.AssemblyInfo.cs
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.csproj.CoreCompileInputs.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.csproj.CopyComplete
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/refint/TaskManagerAPI.Application.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/TaskManagerAPI.Application.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Core/TaskManagerAPI.Application/obj/Debug/net7.0/ref/TaskManagerAPI.Application.dll

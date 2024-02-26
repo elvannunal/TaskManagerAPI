@@ -1,0 +1,17 @@
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/bin/Debug/net7.0/TaskManagerAPI.Infrastructure.deps.json
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/bin/Debug/net7.0/TaskManagerAPI.Infrastructure.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/bin/Debug/net7.0/TaskManagerAPI.Infrastructure.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/bin/Debug/net7.0/TaskManagerAPI.Application.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/bin/Debug/net7.0/TaskManagerAPI.Domain.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/bin/Debug/net7.0/TaskManagerAPI.Application.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/bin/Debug/net7.0/TaskManagerAPI.Domain.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.csproj.AssemblyReference.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.AssemblyInfoInputs.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.AssemblyInfo.cs
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.csproj.CopyComplete
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/refint/TaskManagerAPI.Infrastructure.dll
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/TaskManagerAPI.Infrastructure.pdb
+/Users/elvanunal/Desktop/TaskManager/TaskManagerAPI/Infrastructure/TaskManagerAPI.Infrastructure/obj/Debug/net7.0/ref/TaskManagerAPI.Infrastructure.dll
