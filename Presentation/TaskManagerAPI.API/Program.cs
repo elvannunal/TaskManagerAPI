@@ -2,13 +2,14 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using TaskManagerAPI.Application;
+using TaskManagerAPI.Infrastructure;
 using TaskManagerAPI.Persistence.ServicesRegistration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
-
+builder.Services.AddInfrastructureServices();
 builder.Services.AddServicesRegistration();
 builder.Services.AddApplicationServices();
 

@@ -2,6 +2,9 @@ using System.Net;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using TaskManagerAPI.Application.Const;
+using TaskManagerAPI.Application.CustomAttributes;
+using TaskManagerAPI.Application.Enums;
 using TaskManagerAPI.Application.Features.Commands.TeamCommand.CreateTeam;
 using TaskManagerAPI.Application.Features.Commands.TeamCommand.DeleteTeam;
 using TaskManagerAPI.Application.Features.Commands.TeamCommand.UpdateTeam;
@@ -26,8 +29,7 @@ public class TeamController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpGet]
-    [Route("GetAllTeams")]
+    [HttpGet("GetAllTeams")]
     public IActionResult GetAllTeams([FromQuery]GetAllTeamQueryRequest getAllTeamQueryRequest)
     {
         var teams =  _mediator.Send(getAllTeamQueryRequest);
@@ -43,6 +45,7 @@ public class TeamController : ControllerBase
 
     [HttpPost]
     [Route("AddTeam")]
+    [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Teams,ActionType = ActionType.Writing,Definition = "Add team")]
     public async Task<IActionResult> AddTeamAsync(CreateTeamCommandRequest createTeamCommandRequest)
     {
         var result = await _mediator.Send(createTeamCommandRequest);
@@ -59,6 +62,7 @@ public class TeamController : ControllerBase
     
     [HttpPut]
     [Route("UpdateTeam")]
+    [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Teams, ActionType = ActionType.Updating,Definition = "Update team")]
     public async Task<IActionResult> UpdateTeamAsync([FromBody] UpdateTeamCommandRequest updateTeamCommandRequest)
     {
 
@@ -76,6 +80,7 @@ public class TeamController : ControllerBase
     
     [HttpDelete]
     [Route("RemoveIdByTeam")]
+    [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Teams, ActionType = ActionType.Deleting,Definition = "Remove team")]
     public async Task<IActionResult> RemoveIdByTeamAsync(DeleteTeamByIdCommandRequest deleteTeamByIdCommandRequest)
     {
         var result =await _mediator.Send(deleteTeamByIdCommandRequest);

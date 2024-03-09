@@ -54,11 +54,6 @@ public class AuthService : IAuthService
         {
            string resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
 
-         //  byte[] tokenBytes = Encoding.UTF8.GetBytes(resetToken);
-
-          // resetToken = WebEncoders.Base64UrlEncode(tokenBytes);
-          
-          //encode ediyoruz helper aracılığı ile
           resetToken = resetToken.UrlEncode();
           
            await _mailService.SendPasswordResetMailAsync(email, user.Id, resetToken);
@@ -71,10 +66,7 @@ public class AuthService : IAuthService
         User user = await _userManager.FindByIdAsync(userId);
         if (user != null)
         {
-            //byte[] tokenBytes = WebEncoders.Base64UrlDecode(resetToken);
-            //resetToken = Encoding.UTF8.GetString(tokenBytes);
-            //decode ediyoruz helper aracılığı ile
-            
+     
             resetToken = resetToken.UrlDecode();
             
            return await _userManager.VerifyUserTokenAsync(user,
