@@ -9,3 +9,4 @@
 ##### Identity
 ##### Login and Authorization
 ##### Role Based Authorization
+##### Password Reset by e-mail
