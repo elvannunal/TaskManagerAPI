@@ -34,37 +34,33 @@ public class AuthorizeService :IAuthorizeService
                        if (attributes != null)
                        {
                            Menu menu = null;
-                           foreach (var attribute in attributes)
-                           {
-                               var authorizeDefinitionAttr = attributes.FirstOrDefault(a
-                                       => a.GetType() == typeof(AuthorizeDefinitionAttribute)) as AuthorizeDefinitionAttribute;
-
-                               if (!menus.Any(m => m.Name == authorizeDefinitionAttr.Menu))
-                               {
-                                   
-                                   menu = new() { Name = authorizeDefinitionAttr.Menu };
-                                   menus.Add(menu);
-
-                               }
-                               else
-                                   menu = menus.FirstOrDefault(m => m.Name == authorizeDefinitionAttr.Menu);
-
-                               Action _action = new()
-                               {
-                                   ActionType = authorizeDefinitionAttr.ActionType,
-                                   Defination = authorizeDefinitionAttr.Definition
-                               };
-                              var httpAttributes=attributes.FirstOrDefault(a => a.GetType().IsAssignableTo(typeof(HttpMethodAttribute))) as HttpMethodAttribute;
-                              if (httpAttributes != null)
-                              {
-                                  _action.HttpType = httpAttributes.HttpMethods.First();
-                              }
-                              else
-                                  _action.HttpType = "GET";
                           
-                              
-                              menu.Actions.Add(_action);
+                           var authorizeDefinitionAttr = attributes.FirstOrDefault(
+                               a => a.GetType() == typeof(AuthorizeDefinitionAttribute)) as AuthorizeDefinitionAttribute;
+
+                           if (!menus.Any(m => m.Name == authorizeDefinitionAttr.Menu))
+                           {
+                               menu = new() { Name = authorizeDefinitionAttr.Menu };
+                               menus.Add(menu);
                            }
+                           else
+                               menu = menus.FirstOrDefault(m => m.Name == authorizeDefinitionAttr.Menu);
+
+                           Action _action = new()
+                           {
+                               ActionType = authorizeDefinitionAttr.ActionType,
+                               Defination = authorizeDefinitionAttr.Definition
+                           };
+                          var httpAttributes=attributes.FirstOrDefault(a => a.GetType().IsAssignableTo(typeof(HttpMethodAttribute))) as HttpMethodAttribute;
+                          if (httpAttributes != null)
+                          {
+                              _action.HttpType = httpAttributes.HttpMethods.First();
+                          }
+                          else
+                              _action.HttpType = "GET";
+
+                          menu.Actions.Add(_action);
+                           
                        }
 
                     }
