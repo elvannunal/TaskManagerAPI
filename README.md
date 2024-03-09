@@ -7,4 +7,5 @@
 ##### CQRS Pattern
 ##### MediatR 
 ##### Identity
-
+##### Login and Authorization
+##### Role Based Authorization
