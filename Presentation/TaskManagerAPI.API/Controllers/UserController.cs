@@ -5,9 +5,10 @@ using TaskManagerAPI.Application.Features.Commands.UserCommand.CreateUser;
 using TaskManagerAPI.Application.Features.Commands.UserCommand.UpdatePassword;
 
 namespace TaskManagerAPI.API.Controllers;
-[ApiController]
 
-public class UserController : Controller
+[Route("api/[controller]")]
+[ApiController]
+public class UserController : ControllerBase
 {
     private readonly IMediator _mediator;
     private readonly IMailService _mailService;

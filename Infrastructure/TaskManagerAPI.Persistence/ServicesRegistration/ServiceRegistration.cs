@@ -38,6 +38,8 @@ public static class ServiceRegistration
 
         service.AddScoped<IUserService,UserService>();
         service.AddScoped<IAuthService,AuthService>();
-        service.AddScoped<IMailService,MailService>();
+        service.AddScoped<IMailService,MailService>();    
+        service.AddScoped<IRoleService,RoleService>();
+
     }
 }

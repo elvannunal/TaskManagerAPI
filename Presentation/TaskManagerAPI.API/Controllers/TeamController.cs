@@ -14,6 +14,7 @@ using TaskManagerAPI.Application.Repositories;
 
 namespace TaskManagerAPI.API.Controllers;
 
+[Route("api/[controller]")]
 [ApiController]
 [Authorize(AuthenticationSchemes = "Admin")]
 
